@@ -1,0 +1,36 @@
+{
+  "name": "@suddi/require",
+  "description": "Recursively load the entire directory",
+  "version": "1.0.0",
+  "homepage": "",
+  "author": {
+    "name": "Sudharshan Ravindran",
+    "email": "suddir@gmail.com",
+    "url": "https://github.com/suddi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suddi/node-require"
+  },
+  "bugs": {
+    "url": "https://github.com/suddi/node-require/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/suddi/node-require/LICENSE"
+    }
+  ],
+  "keywords": ["require-all", "require-dir", "require", "directory", "folder"],
+  "engines": {
+    "node": ">= 4.2.3",
+    "npm": ">= 2.14.7"
+  },
+  "scripts": {},
+  "dependencies": {
+    "change-case": "^2.3.1",
+    "lodash": "^3.10.1",
+    "require-all": "^2.0.0"
+  },
+  "devDependencies": {}
+}
