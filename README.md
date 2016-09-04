@@ -29,7 +29,7 @@ eg. Given the file structure:
 
 ## Examples using strategies
 
-````
+````js
 const Utils = Require.all(__dirname + '/utils', {
     map: Require.Strategies.Filename.lowerCase
 });
