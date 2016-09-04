@@ -1,5 +1,5 @@
 {
-  "name": "@suddi/require",
+  "name": "load-directory",
   "description": "Recursively load the entire directory",
   "version": "1.0.0",
   "homepage": "",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/suddi/node-require"
+    "url": "https://github.com/suddi/load-directory"
   },
   "bugs": {
-    "url": "https://github.com/suddi/node-require/issues"
+    "url": "https://github.com/suddi/load-directory/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/suddi/node-require/LICENSE"
+      "url": "https://github.com/suddi/load-directory/LICENSE"
     }
   ],
   "keywords": ["require-all", "require-dir", "require", "directory", "folder"],

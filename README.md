@@ -1,13 +1,13 @@
-# node-require
+# load-directory
 
 ````
-npm install @suddi/require
+npm install load-directory
 ````
 
 ## Usage
 
 ````js
-const Require = require('@suddi/require');
+const Require = require('load-directory');
 
 Require.all(__dirname, {
     excludeDirs :  /^primitive$/,                   // will exclude the directory "primitive"
