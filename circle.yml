@@ -1,0 +1,7 @@
+machine:
+    timezone:
+        Asia/Hong_Kong
+    node:
+        version: "4"
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
