@@ -21,16 +21,36 @@
       "url": "https://github.com/suddi/load-directory/LICENSE"
     }
   ],
-  "keywords": ["require-all", "require-dir", "require", "directory", "folder"],
+  "keywords": [
+    "require-all",
+    "require-dir",
+    "require",
+    "directory",
+    "folder",
+    "loading",
+    "load"
+  ],
   "engines": {
     "node": ">= 4.2.3",
     "npm": ">= 2.14.7"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint .",
+    "prepush": "npm run lint",
+    "test": "istanbul cover _mocha -- -R spec"
+  },
   "dependencies": {
     "change-case": "^2.3.1",
     "lodash": "^3.10.1",
     "require-all": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-suddi": "^1.0.3",
+    "husky": "^0.11.7",
+    "mocha": "^3.0.2"
+  },
+  "eslintConfig": {
+    "extends": "suddi/backend"
+  }
 }

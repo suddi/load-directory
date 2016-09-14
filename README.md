@@ -47,13 +47,12 @@ console.log(Utils);
 //   templates: { standard: [Function], ultimate: [Function] } }
 
 const Utils = Require.all(__dirname + '/utils', {
-    map: Require.Strategies.Filename.pascalCase
+    map: Require.Strategies.Filename.snakeCase
 });
 console.log(Utils);
-// { GenerateFilename: [Function],
-//   PredictValue: [Function],
-//   Templates: { Standard: [Function], Ultimate: [Function] } }
-
+// { generate_filename: [Function],
+//   predict_value: [Function],
+//   templates: { standard: [Function], ultimate: [Function] } }
 
 const Utils = Require.all(__dirname + '/utils', {
     map: Require.Strategies.Filename.camelCase
@@ -62,6 +61,14 @@ console.log(Utils);
 // { generateFilename: [Function],
 //   predictValue: [Function],
 //   templates: { standard: [Function], ultimate: [Function] } }
+
+const Utils = Require.all(__dirname + '/utils', {
+    map: Require.Strategies.Filename.pascalCase
+});
+console.log(Utils);
+// { GenerateFilename: [Function],
+//   PredictValue: [Function],
+//   Templates: { Standard: [Function], Ultimate: [Function] } }
 
 const Utils = Require.all(__dirname + '/utils', {
     map: Require.Strategies.Filename.functionCase
