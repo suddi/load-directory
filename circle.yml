@@ -3,5 +3,6 @@ machine:
         Asia/Hong_Kong
     node:
         version: "4"
-after_success:
-    - bash <(curl -s https://codecov.io/bash)
+    test:
+        post:
+            - bash <(curl -s https://codecov.io/bash)
