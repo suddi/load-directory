@@ -1,5 +1,8 @@
 # load-directory
 
+[![CircleCI](https://circleci.com/gh/suddi/load-directory/tree/master.svg?style=svg)](https://circleci.com/gh/suddi/load-directory/tree/master) [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/load-directory)
+
+
 ````
 npm install load-directory
 ````
