@@ -35,9 +35,10 @@
     "npm": ">= 2.14.7"
   },
   "scripts": {
+    "coverage": "istanbul cover _mocha -- -R spec",
     "lint": "eslint .",
     "prepush": "npm run lint",
-    "test": "istanbul cover _mocha -- -R spec"
+    "test": "npm run lint && npm run coverage"
   },
   "dependencies": {
     "change-case": "^2.3.1",
