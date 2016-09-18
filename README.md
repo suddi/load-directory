@@ -45,9 +45,9 @@ const Utils = Require.all(__dirname + '/utils', {
     map: Require.Strategies.Filename.upperCase
 });
 console.log(Utils);
-// { generate_filename: [Function],
-//   predict_value: [Function],
-//   templates: { standard: [Function], ultimate: [Function] } }
+// { GENERATE_FILENAME: [Function],
+//   PREDICT_VALUE: [Function],
+//   TEMPLATES: { STANDARD: [Function], ULTIMATE: [Function] } }
 
 const Utils = Require.all(__dirname + '/utils', {
     map: Require.Strategies.Filename.snakeCase

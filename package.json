@@ -1,7 +1,7 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/suddi/load-directory/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/suddi/load-directory/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "keywords": [
     "require-all",
     "require-dir",

@@ -4,14 +4,14 @@ const _ = require('lodash');
 const change_case = require('change-case');
 const r = require('require-all');
 
+const Errors = require('./errors');
+
 module.exports.getDefaultOptions = function () {
     return {
         filter: /^((?!index).+)*\..*$/,
         excludeDirs: /^\.(git|svn)$/,
         recursive: true,
-        map: function (name, path) {
-            return change_case.pascalCase(name);
-        },
+        map: module.exports.Strategies.Filename.pascalCase,
         resolve: function (func) {
             return func;
         }
@@ -19,10 +19,14 @@ module.exports.getDefaultOptions = function () {
 };
 
 module.exports.all = function (dirname, options) {
+    if (!dirname) {
+        throw new Error(Errors.NO_PATH);
+    }
+
     const default_options = module.exports.getDefaultOptions();
-    options = _.merge(_.cloneDeep(default_options), options);
-    options.dirname = dirname;
-    return r(options);
+    const merged_options = _.merge(_.cloneDeep(default_options), options || {});
+    merged_options.dirname = dirname;
+    return r(merged_options);
 };
 
 module.exports.Strategies = {
