@@ -1,8 +1,8 @@
 # load-directory
 
-[![CircleCI](https://circleci.com/gh/suddi/load-directory/tree/master.svg?style=svg)](https://circleci.com/gh/suddi/load-directory/tree/master)
+[![CircleCI](https://img.shields.io/circleci/project/suddi/load-directory.svg?maxAge=2592000)](https://circleci.com/gh/suddi/eslint-config-suddi)
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/load-directory)
-[![license](https://img.shields.io/github/license/suddi/eslint-config-suddi.svg?maxAge=2592000)](https://github.com/suddi/eslint-config-suddi)
+[![npm](https://img.shields.io/npm/v/load-directory.svg?maxAge=2592000)](https://www.npmjs.com/package/load-directory)
 [![license](https://img.shields.io/github/license/suddi/load-directory.svg?maxAge=2592000)](https://github.com/suddi/load-directory)
 
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/load-directory)
