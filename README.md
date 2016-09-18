@@ -3,7 +3,7 @@
 [![CircleCI](https://img.shields.io/circleci/project/suddi/load-directory.svg?maxAge=2592000)](https://circleci.com/gh/suddi/load-directory)
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/load-directory)
 [![npm](https://img.shields.io/npm/v/load-directory.svg?maxAge=2592000)](https://www.npmjs.com/package/load-directory)
-[![license](https://img.shields.io/github/license/suddi/load-directory.svg?maxAge=2592000)](https://github.com/suddi/load-directory)
+[![license](https://img.shields.io/github/license/suddi/load-directory.svg?maxAge=2592000)](https://github.com/suddi/load-directory/blob/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/load-directory)
 
