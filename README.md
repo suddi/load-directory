@@ -12,6 +12,25 @@
 npm install load-directory
 ````
 
+## API
+
+````js
+Require.all(<path-to-directory>, <options>);
+````
+
+Default configuration, can be overwritten with user-defined options:
+````js
+{
+    filter: /^((?!index).+)*\..*$/,                         // index.js will be ignored by default
+    excludeDirs: /^\.(git|svn)$/,                           // .git, .svn directories will be ignored by default
+    recursive: true,                                        // true, if files are to be required by traversing nested directories
+    map: module.exports.Strategies.Filename.pascalCase,     // pascalCase will be applied by default
+    resolve: function (func) {                              // resolving of files will be simply return module.exports by default
+        return func;
+    }
+};
+````
+
 ## Usage
 
 ````js

@@ -4,6 +4,7 @@ const generateFilename = require('./utils/generate_filename');
 const predictValue = require('./utils/predict_value');
 const standard = require('./utils/templates/standard');
 const ultimate = require('./utils/templates/ultimate');
+const index = require('./utils/templates/index');
 
 module.exports = {
     filter: {
@@ -93,3 +94,4 @@ module.exports.generate_filename = generateFilename();
 module.exports.predict_value = predictValue();
 module.exports.standard = standard();
 module.exports.ultimate = ultimate();
+module.exports.index = index();

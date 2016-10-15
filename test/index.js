@@ -180,4 +180,18 @@ describe('Testing load-directory', function () {
         assert.equal(result instanceof Object, true);
         assert.equal(JSON.stringify(result), JSON.stringify(expected_results.resolve));
     });
+
+    it('CASE 15: options.filter allow to require all .js files', function () {
+        let result = Require.all(path.join(__dirname, '/utils'), {
+            filter: /^(.*)\.js$/
+        });
+
+        assert.equal(result instanceof Object, true);
+        assert.equal(JSON.stringify(result), JSON.stringify(expected_results.filter));
+        assert.equal(result.GenerateFilename(), expected_results.generate_filename);
+        assert.equal(result.PredictValue(), expected_results.predict_value);
+        assert.equal(result.Templates.Index(), expected_results.index);
+        assert.equal(result.Templates.Standard(), expected_results.standard);
+        assert.equal(result.Templates.Ultimate(), expected_results.ultimate);
+    });
 });
