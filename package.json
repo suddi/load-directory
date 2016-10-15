@@ -1,7 +1,7 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "homepage": "",
   "author": {
     "name": "Sudharshan Ravindran",
