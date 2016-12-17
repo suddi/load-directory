@@ -1,5 +1,7 @@
 'use strict';
 
+/* eslint camelcase: 'off' */
+
 const generateFilename = require('./utils/generate_filename');
 const predictValue = require('./utils/predict_value');
 const standard = require('./utils/templates/standard');

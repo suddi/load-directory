@@ -1,7 +1,7 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "1.1.12",
+  "version": "2.0.0",
   "homepage": "",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -37,16 +37,16 @@
     "test": "npm run lint && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
-    "change-case": "^2.3.1",
-    "lodash": "^3.10.1",
+    "change-case": "^3.0.0",
+    "lodash": "^4.0.0",
     "require-all": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.5.0",
-    "eslint-config-suddi": "^1.0.3",
-    "husky": "^0.11.7",
-    "istanbul": "^0.4.5",
-    "mocha": "^3.0.2"
+    "eslint": "^3.0.0",
+    "eslint-config-suddi": "^3.0.0",
+    "husky": "^0.12.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^3.2.0"
   },
   "eslintConfig": {
     "extends": "suddi/backend"

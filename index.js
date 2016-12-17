@@ -1,7 +1,7 @@
 'use strict';
 
 const _ = require('lodash');
-const change_case = require('change-case');
+const changeCase = require('change-case');
 const r = require('require-all');
 
 const Errors = require('./errors');
@@ -23,10 +23,10 @@ module.exports.all = function (dirname, options) {
         throw new Error(Errors.NO_PATH);
     }
 
-    const default_options = module.exports.getDefaultOptions();
-    const merged_options = _.merge(_.cloneDeep(default_options), options || {});
-    merged_options.dirname = dirname;
-    return r(merged_options);
+    const defaultOptions = module.exports.getDefaultOptions();
+    const mergedOptions = _.merge(_.cloneDeep(defaultOptions), options || {});
+    mergedOptions.dirname = dirname;
+    return r(mergedOptions);
 };
 
 module.exports.Strategies = {
@@ -40,20 +40,20 @@ module.exports.Strategies = {
         },
 
         snakeCase: function (name, path) {
-            return change_case.snakeCase(name);
+            return changeCase.snakeCase(name);
         },
 
         camelCase: function (name, path) {
-            return change_case.camelCase(name);
+            return changeCase.camelCase(name);
         },
 
         pascalCase: function (name, path) {
-            return change_case.pascalCase(name);
+            return changeCase.pascalCase(name);
         },
 
         functionCase: function (name, path) {
-            const is_js_file = path.lastIndexOf('.js') === path.length - 3;
-            return is_js_file ? change_case.camelCase(name) : change_case.pascalCase(name);
+            const isJSFile = path.lastIndexOf('.js') === path.length - 3;
+            return isJSFile ? changeCase.camelCase(name) : changeCase.pascalCase(name);
         }
     }
 };
