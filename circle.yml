@@ -2,7 +2,7 @@ machine:
     timezone:
         Asia/Hong_Kong
     node:
-        version: "4"
+        version: "6"
 test:
     post:
         - bash <(curl -s https://codecov.io/bash)
