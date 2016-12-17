@@ -5,6 +5,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46408c666119432abee43f991b79cc68)](https://www.codacy.com/app/suddir/load-directory?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=suddi/load-directory&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/dt/load-directory.svg)]()
 [![npm](https://img.shields.io/npm/v/load-directory.svg?maxAge=2592000)](https://www.npmjs.com/package/load-directory)
+[![David](https://img.shields.io/david/suddi/load-directory.svg)](https://github.com/suddi/load-directory/blob/master/package.json)
+[![David](https://img.shields.io/david/dev/suddi/load-directory.svg)](https://github.com/suddi/load-directory/blob/master/package.json)
 [![license](https://img.shields.io/github/license/suddi/load-directory.svg?maxAge=2592000)](https://github.com/suddi/load-directory/blob/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/load-directory)
