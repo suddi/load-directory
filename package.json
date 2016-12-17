@@ -1,8 +1,8 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "2.0.1",
-  "homepage": "",
+  "version": "2.0.2",
+  "homepage": "https://github.com/suddi/load-directory",
   "author": {
     "name": "Sudharshan Ravindran",
     "email": "suddir@gmail.com",
