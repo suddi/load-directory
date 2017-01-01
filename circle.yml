@@ -1,8 +1,9 @@
 machine:
-    timezone:
-        Asia/Hong_Kong
     node:
-        version: "6"
+        version: '6.9.2'
 test:
+    override:
+        - source ./bin/ci.sh:
+            parallel: true
     post:
         - bash <(curl -s https://codecov.io/bash)

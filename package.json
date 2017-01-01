@@ -1,12 +1,12 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "2.0.2",
-  "homepage": "https://www.npmjs.com/package/eslint-config-suddi",
+  "version": "2.0.3",
+  "homepage": "https://www.npmjs.com/package/load-directory",
   "author": {
     "name": "Sudharshan Ravindran",
     "email": "suddir@gmail.com",
-    "url": "https://github.com/suddi"
+    "url": "https://suddi.github.io"
   },
   "repository": {
     "type": "git",
@@ -15,6 +15,10 @@
   "bugs": {
     "url": "https://github.com/suddi/load-directory/issues"
   },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
   "license": "MIT",
   "keywords": [
     "require-all",
@@ -26,27 +30,34 @@
     "load"
   ],
   "engines": {
-    "node": ">= 4.5.0",
-    "npm": ">= 2.14.7"
+    "node": ">= 4.0.0",
+    "npm": ">= 2.0.0"
   },
   "scripts": {
     "check-coverage": "istanbul check-coverage",
-    "coverage": "istanbul cover _mocha -- -R spec",
+    "coverage": "istanbul cover _mocha -- --opts test/options/default.opts",
+    "doctest": "mocha --opts test/options/doctest.opts",
     "lint": "eslint .",
-    "prepush": "npm run lint",
-    "test": "npm run lint && npm run coverage && npm run check-coverage"
+    "prepush": "npm test",
+    "security-check": "nsp check --output summary",
+    "start": "ntl",
+    "test": "npm run lint && npm run security-check && npm run doctest && npm run coverage && npm run check-coverage"
   },
   "dependencies": {
     "change-case": "^3.0.0",
-    "lodash": "^4.0.0",
     "require-all": "^2.0.0"
   },
   "devDependencies": {
+    "chai": "^3.0.0",
     "eslint": "^3.0.0",
     "eslint-config-suddi": "^3.0.0",
     "husky": "^0.12.0",
     "istanbul": "^0.4.0",
-    "mocha": "^3.2.0"
+    "jsdoctest": "^1.0.0",
+    "mocha": "^3.0.0",
+    "nsp": "^2.0.0",
+    "ntl": "^1.0.0",
+    "rewire": "^2.0.0"
   },
   "eslintConfig": {
     "extends": "suddi/backend"

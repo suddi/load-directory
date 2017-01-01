@@ -60,7 +60,7 @@ eg. Given the file structure:
 ## Examples using strategies
 
 ````js
-const Utils = Require.all(__dirname + '/utils', {
+const Utils = Require.all(__dirname + 'utils', {
     map: Require.Strategies.Filename.lowerCase
 });
 console.log(Utils);
@@ -68,7 +68,7 @@ console.log(Utils);
 //   predict_value: [Function],
 //   templates: { standard: [Function], ultimate: [Function] } }
 
-const Utils = Require.all(__dirname + '/utils', {
+const Utils = Require.all(__dirname + 'utils', {
     map: Require.Strategies.Filename.upperCase
 });
 console.log(Utils);
@@ -76,7 +76,39 @@ console.log(Utils);
 //   PREDICT_VALUE: [Function],
 //   TEMPLATES: { STANDARD: [Function], ULTIMATE: [Function] } }
 
-const Utils = Require.all(__dirname + '/utils', {
+const Utils = Require.all(__dirname + 'utils', {
+    map: Require.Strategies.Filename.dotCase
+});
+console.log(Utils);
+// { 'generate.filename': [Function],
+//   'predict.value': [Function],
+//   templates: { standard: [Function], ultimate: [Function] } }
+
+const Utils = Require.all(__dirname + 'utils', {
+    map: Require.Strategies.Filename.headerCase
+});
+console.log(Utils);
+// { 'Generate-Filename': [Function],
+//   'Predict-Value': [Function],
+//   Templates: { Standard: [Function], Ultimate: [Function] } }
+
+const Utils = Require.all(__dirname + 'utils', {
+    map: Require.Strategies.Filename.paramCase
+});
+console.log(Utils);
+// { 'generate-filename': [Function],
+//   'predict-value': [Function],
+//   templates: { standard: [Function], ultimate: [Function] } }
+
+const Utils = Require.all(__dirname + 'utils', {
+    map: Require.Strategies.Filename.sentenceCase
+});
+console.log(Utils);
+// { 'Generate filename': [Function],
+//   'Predict value': [Function],
+//   Templates: { Standard: [Function], Ultimate: [Function] } }
+
+const Utils = Require.all(__dirname + 'utils', {
     map: Require.Strategies.Filename.snakeCase
 });
 console.log(Utils);
@@ -84,7 +116,7 @@ console.log(Utils);
 //   predict_value: [Function],
 //   templates: { standard: [Function], ultimate: [Function] } }
 
-const Utils = Require.all(__dirname + '/utils', {
+const Utils = Require.all(__dirname + 'utils', {
     map: Require.Strategies.Filename.camelCase
 });
 console.log(Utils);
@@ -92,7 +124,7 @@ console.log(Utils);
 //   predictValue: [Function],
 //   templates: { standard: [Function], ultimate: [Function] } }
 
-const Utils = Require.all(__dirname + '/utils', {
+const Utils = Require.all(__dirname + 'utils', {
     map: Require.Strategies.Filename.pascalCase
 });
 console.log(Utils);
@@ -100,7 +132,7 @@ console.log(Utils);
 //   PredictValue: [Function],
 //   Templates: { Standard: [Function], Ultimate: [Function] } }
 
-const Utils = Require.all(__dirname + '/utils', {
+const Utils = Require.all(__dirname + 'utils', {
     map: Require.Strategies.Filename.functionCase
 });
 console.log(Utils);
@@ -108,3 +140,5 @@ console.log(Utils);
 //   predictValue: [Function],
 //   Templates: { standard: [Function], ultimate: [Function] } }
 ````
+
+For more workable examples, please see [fixtures](test/integration/fixtures).
