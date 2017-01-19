@@ -12,12 +12,14 @@
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/load-directory)
 
 ````
-npm install load-directory
+npm install --save load-directory
 ````
 
 ## API
 
 ````js
+const Require = require('load-directory');
+
 Require.all(<path-to-directory>, <options>);
 ````
 
