@@ -1,12 +1,12 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "homepage": "https://www.npmjs.com/package/load-directory",
   "author": {
     "name": "Sudharshan Ravindran",
-    "email": "suddir@gmail.com",
-    "url": "https://suddi.github.io"
+    "email": "mail@suddi.io",
+    "url": "https://suddi.io"
   },
   "repository": {
     "type": "git",
