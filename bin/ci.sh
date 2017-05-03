@@ -20,7 +20,7 @@ function run () {
             npmtest 5
             ;;
         3)
-            npmtest 6
+            npmtest 7
             ;;
         *)
             ;;
