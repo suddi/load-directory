@@ -1,13 +1,13 @@
 # load-directory
 
-[![CircleCI](https://img.shields.io/circleci/project/suddi/load-directory.svg?maxAge=2592000)](https://circleci.com/gh/suddi/load-directory)
+[![CircleCI](https://img.shields.io/circleci/project/suddi/load-directory.svg)](https://circleci.com/gh/suddi/load-directory)
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/load-directory)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/46408c666119432abee43f991b79cc68)](https://www.codacy.com/app/suddir/load-directory?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=suddi/load-directory&amp;utm_campaign=Badge_Grade)
-[![npm](https://img.shields.io/npm/dt/load-directory.svg)]()
-[![npm](https://img.shields.io/npm/v/load-directory.svg?maxAge=2592000)](https://www.npmjs.com/package/load-directory)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/46408c666119432abee43f991b79cc68)](https://www.codacy.com/app/suddir/load-directory)
+[![npm](https://img.shields.io/npm/v/load-directory.svg)](https://www.npmjs.com/package/load-directory)
+[![npm](https://img.shields.io/npm/dt/load-directory.svg)](https://www.npmjs.com/package/eslint-config-suddi)
 [![David](https://img.shields.io/david/suddi/load-directory.svg)](https://david-dm.org/suddi/load-directory)
 [![David](https://img.shields.io/david/dev/suddi/load-directory.svg)](https://david-dm.org/suddi/load-directory?type=dev)
-[![license](https://img.shields.io/github/license/suddi/load-directory.svg?maxAge=2592000)](https://github.com/suddi/load-directory/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/suddi/load-directory.svg?maxAge=2592000)](https://raw.githubusercontent.com/suddi/load-directory/master/LICENSE)
 
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graphs/commits.svg)](https://codecov.io/gh/suddi/load-directory)
 
