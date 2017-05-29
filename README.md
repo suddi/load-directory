@@ -1,5 +1,7 @@
 # load-directory
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/load-directory.svg)](https://greenkeeper.io/)
+
 [![CircleCI](https://img.shields.io/circleci/project/suddi/load-directory.svg)](https://circleci.com/gh/suddi/load-directory)
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/load-directory)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46408c666119432abee43f991b79cc68)](https://www.codacy.com/app/suddir/load-directory)
