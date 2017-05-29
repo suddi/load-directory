@@ -1,12 +1,11 @@
 # load-directory
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/load-directory.svg)](https://greenkeeper.io/)
-
 [![CircleCI](https://img.shields.io/circleci/project/suddi/load-directory.svg)](https://circleci.com/gh/suddi/load-directory)
 [![codecov](https://codecov.io/gh/suddi/load-directory/branch/master/graph/badge.svg)](https://codecov.io/gh/suddi/load-directory)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/46408c666119432abee43f991b79cc68)](https://www.codacy.com/app/suddir/load-directory)
 [![npm](https://img.shields.io/npm/v/load-directory.svg)](https://www.npmjs.com/package/load-directory)
 [![npm](https://img.shields.io/npm/dt/load-directory.svg)](https://www.npmjs.com/package/eslint-config-suddi)
+[![Greenkeeper badge](https://badges.greenkeeper.io/suddi/load-directory.svg)](https://greenkeeper.io/)
 [![David](https://img.shields.io/david/suddi/load-directory.svg)](https://david-dm.org/suddi/load-directory)
 [![David](https://img.shields.io/david/dev/suddi/load-directory.svg)](https://david-dm.org/suddi/load-directory?type=dev)
 [![license](https://img.shields.io/github/license/suddi/load-directory.svg)](https://raw.githubusercontent.com/suddi/load-directory/master/LICENSE)
