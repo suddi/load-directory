@@ -1,7 +1,7 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "homepage": "https://www.npmjs.com/package/load-directory",
   "author": {
     "name": "Sudharshan Ravindran",
@@ -48,12 +48,12 @@
     "require-all": "^2.0.0"
   },
   "devDependencies": {
-    "chai": "^4.0.2",
-    "eslint": "^3.0.0",
-    "eslint-config-suddi": "^4.0.0",
+    "chai": "^4.0.0",
+    "eslint": "^4.0.0",
+    "eslint-config-suddi": "^4.0.8",
     "husky": "^0.14.0",
     "istanbul": "^0.4.0",
-    "jsdoctest": "git+ssh://git@github.com/yamadapc/jsdoctest.git",
+    "jsdoctest": "^1.0.0",
     "mocha": "^3.0.0",
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",
