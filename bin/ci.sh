@@ -2,7 +2,6 @@
 
 function npmtest() {
     rm -rf node_modules
-    npm cache clean
     nvm use $1
     npm install
     npm test
