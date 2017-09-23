@@ -18,7 +18,7 @@ module.exports.assert = function (result, expectedResults) {
     expect(result).to.deep.eql({
         'Generate filename': expectedResults.generateFilename,
         'Predict value': expectedResults.predictValue,
-        Templates: {
+        'Templates': {
             Standard: expectedResults.standard,
             Ultimate: expectedResults.ultimate
         }
