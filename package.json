@@ -1,7 +1,7 @@
 {
   "name": "load-directory",
   "description": "Recursively load the entire directory with strategies for customized object structure",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "homepage": "https://www.npmjs.com/package/load-directory",
   "author": {
     "name": "Sudharshan Ravindran",
