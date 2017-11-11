@@ -57,7 +57,7 @@
     "mocha": "^4.0.0",
     "nsp": "^2.0.0",
     "ntl": "^1.0.0",
-    "rewire": "^2.0.0"
+    "rewire": "^3.0.0"
   },
   "eslintConfig": {
     "extends": "suddi/backend"
